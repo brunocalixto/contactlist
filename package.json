@@ -1,0 +1,29 @@
+{
+  "name": "contactlist",
+  "version": "1.0.0",
+  "description": "A simple mean application",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunocalixto/contactlist.git"
+  },
+  "author": "Bruno Calixto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunocalixto/contactlist/issues"
+  },
+  "homepage": "https://github.com/brunocalixto/contactlist#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.12"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
